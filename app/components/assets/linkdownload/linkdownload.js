@@ -1,7 +1,8 @@
-export default function LinkDownload({ href, alt }) {
+import React from 'react';
+export default function LinkDownload({ href, alt, className }) {
   return (
     <a
-      className="uppercase text-m max-w-16 text-grey hover:text-white max-sm:mt-6"
+      className={`uppercase text-m max-w-16 text-grey hover:text-white block ${className}`}
       download
       href={href}
       alt={alt}
