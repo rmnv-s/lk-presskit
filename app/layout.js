@@ -22,6 +22,37 @@ const helvetica = localFont({
 export const metadata = {
   title: 'Linda Kristel press kit',
   description: 'Linda Kristel press kit',
+
+  openGraph: {
+    title: 'LINDA KRISTEL – A story of beauty',
+    description: 'Linda Kristel press kit',
+    url: 'https://lk-presskit.vercel.app/',
+    siteName: 'Linda Kristel',
+    images: [
+      {
+        url: '/MetaTagsLK.jpg',
+        width: 1200,
+        height: 628,
+        alt: 'Linda Kristel',
+      },
+    ],
+
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'LINDA KRISTEL – A story of beauty',
+    description: 'Linda Kristel press kit',
+
+    images: [
+      {
+        url: '/MetaTagsLK.jpg',
+        width: 1200,
+        height: 628,
+        alt: 'Linda Kristel',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
