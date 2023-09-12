@@ -5,7 +5,7 @@ export default function Home() {
       <ul className="md:grid-cols-3 sm:grid-cols-2 max-sm:gap-10 lg:grid-cols-3 text-white grid grid-rows-2 gap-12 ">
         <li className="flex flex-col opacity-70 hover:opacity-100">
           <span className="text-base font-bold mb-3 ">01</span>
-          <Link className="text-2xl uppercase leading-12" href="/">
+          <Link className="text-2xl uppercase leading-12" href="/intro">
             Intro
           </Link>
         </li>
