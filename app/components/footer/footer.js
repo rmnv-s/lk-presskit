@@ -2,8 +2,8 @@ import SvgInstagram from '@/components/assets/icons/instagram.icon';
 import Link from 'next/link';
 export default function Footer() {
   return (
-    <footer className=" flex justify-between border border-t border-0 border-grey pb-10 pt-6">
-      <p className="text-sm font-normal text-grey ">
+    <footer className=" flex justify-between border border-t border-0 border-black pb-10 pt-6">
+      <p className="text-sm font-normal text-black ">
         © 2023 Linda Kristel. <br />
         All rights reserved.
       </p>

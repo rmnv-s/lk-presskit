@@ -2,7 +2,7 @@ import './globals.css';
 import Wrapper from '@/components/wrapper/wrapper';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
-
+import SvgLeaf from '@/components/assets/icons/leaf.icon';
 import localFont from 'next/font/local';
 const helvetica = localFont({
   src: [
