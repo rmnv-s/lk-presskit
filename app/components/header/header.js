@@ -5,17 +5,11 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header>
-      <Link href='/'>
+      <Link href="/">
         {/* <SvgLogoLk className="opacity-50 mb-3 mt-5" /> */}
-        <Image
-          className='opacity-50 mb-3 mt-5'
-          src={logoMain}
-          width={65}
-          alt='logo'
-          priority
-        />
+        <Image className="opacity-50 mb-3 mt-5" src={logoMain} width={65} alt="logo" priority />
       </Link>
-      <span className='uppercase text-[20px] text-white '>press kit </span>
+      <span className="uppercase text-s text-white ">press kit </span>
     </header>
   );
 }
