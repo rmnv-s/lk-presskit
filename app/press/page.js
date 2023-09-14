@@ -80,8 +80,11 @@ export default function Press() {
       <Heading text="Press" />
 
       <ul className="border-t border-grey py-10 ">
-        {press.map((item) => (
-          <li className="grid grid-cols-2 border-b border-grey mb-10 pb-10   lg:grid-cols-2 max-sm:grid-cols-1">
+        {press.map((item, index) => (
+          <li
+            key={index}
+            className="grid grid-cols-2 border-b border-grey mb-10 pb-10   lg:grid-cols-2 max-sm:grid-cols-1"
+          >
             <div className="flex flex-col justify-between">
               <div className="max-sm:mb-6">
                 <p className="text-l text-black mb-3">{item.title}</p>
@@ -100,15 +103,17 @@ export default function Press() {
             <Image src={item.image} alt={item.title} priority />
           </li>
         ))}
-        {pressVideo.map((item) => (
-          <li className="grid grid-cols-2 border-b border-grey mb-10 pb-10   lg:grid-cols-2 max-sm:grid-cols-1">
+        {pressVideo.map((item, index) => (
+          <li
+            key={index}
+            className="grid grid-cols-2 border-b border-grey mb-10 pb-10   lg:grid-cols-2 max-sm:grid-cols-1"
+          >
             <div className="flex flex-col justify-between">
               <div className="max-sm:mb-6">
                 <p className="text-l text-black mb-3">{item.title}</p>
                 <p className="text-m font-normal text-black mb-3">{item.subtitle}</p>
               </div>
             </div>
-
             <Video video={item.video} />
           </li>
         ))}
@@ -116,8 +121,8 @@ export default function Press() {
 
       <p className="text-xl mb-6">Other links</p>
       <ul className="mb-20">
-        {linksPress.map((item) => (
-          <li className="">
+        {linksPress.map((item, index) => (
+          <li key={index} className="">
             <Link
               className="flex flex-col text-m text-black h-full block w-full py-5 border-y border-grey  hover:bg-black hover:text-white hover:pl-4 transition-all duration-500 ease-in-out"
               href={item.href}
