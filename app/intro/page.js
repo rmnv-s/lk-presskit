@@ -7,7 +7,7 @@ export default function Intro() {
     <main className="flex-1 flex flex-col">
       <Heading text="Intro" />
 
-      <Video />
+      <Video video={'/video/LK_intro_Eng.mp4'} />
     </main>
   );
 }

@@ -14,10 +14,10 @@ export default function Cotalogs() {
         <li className="grid grid-cols-2 border-b border-grey mb-10 pb-10   lg:grid-cols-2 max-sm:grid-cols-1">
           <div className="flex flex-col justify-between">
             <div className="max-sm:mb-6">
-              <p className="text-l text-white mb-3">LK catalogue professionale Italy</p>
-              <span className="block text-s text-white mb-3"> Size: 180x180</span>
+              <p className="text-l text-black mb-3">LK catalogue professionale Italy</p>
+              <span className="block text-s text-black mb-3"> Size: 180x180</span>
               <a
-                className="text-white text-base hover:text-grey "
+                className="text-white text-base hover:text-black "
                 href="/catalogs/LK_Catalogue_Prof_ita_180х180_web.pdf"
                 alt="alt text"
                 target="_blank"
@@ -34,10 +34,10 @@ export default function Cotalogs() {
         <li className="grid grid-cols-2 lg:grid-cols-2 max-sm:grid-cols-1">
           <div className="flex flex-col justify-between">
             <div className="max-sm:mb-6">
-              <p className="text-l text-white mb-3">LK catalogue Italy</p>
-              <span className="block text-s text-white mb-3"> Size: 180x180</span>
+              <p className="text-l text-black mb-3">LK catalogue Italy</p>
+              <span className="block text-s text-black mb-3"> Size: 180x180</span>
               <a
-                className="text-white text-base hover:text-grey"
+                className="text-white text-base hover:text-black"
                 href="/catalogs/LK_Catalogue_ita_180х180_web.pdf"
                 alt="alt text"
                 target="_blank"
