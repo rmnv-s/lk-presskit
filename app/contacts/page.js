@@ -25,9 +25,9 @@ export default function Contacts() {
             </Link>
           </li>
           <li className="mb-5 opacity-100 hover:opacity-70">
-            <Link className="flex text-l " href="https://www.lindakristel.com" target="_blank">
+            <Link className="flex text-l " href="https://www.lindakristel.it" target="_blank">
               <SvgWwwLk className="mr-4" />
-              www.lindakristel.com
+              www.lindakristel.it
             </Link>
           </li>
         </ul>

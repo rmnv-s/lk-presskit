@@ -7,7 +7,12 @@ export default function Footer() {
         © 2023 Linda Kristel. <br />
         All rights reserved.
       </p>
-      <Link className="" href="https://www.instagram.com/lindakristel.official/" target="_blank">
+      <Link
+        className=""
+        href="https://www.instagram.com/lindakristel.official/"
+        alt="instaram icon"
+        target="_blank"
+      >
         <SvgInstagram className="cursor-pointer opacity-60 hover:fill-[#fff] transition-all duration-500 ease-in-out" />
       </Link>
     </footer>

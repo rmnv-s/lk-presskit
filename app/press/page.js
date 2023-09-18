@@ -11,7 +11,7 @@ import sanitaBenessereN8 from '../../public/press/Sanita_Benessere_n8-prew.jpg';
 
 const press = [
   {
-    title: 'Focus beauty e skincare ',
+    title: 'La reppublica',
     href: '/press/Focus-beauty-skincare.pdf',
     image: focusBeauty,
   },
