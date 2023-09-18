@@ -48,7 +48,7 @@ export default function Contacts() {
         </ul>
       </div>
 
-      <ul className="">
+      <ul className="mb-12">
         <li className="text-white text-l mb-4">Via Pantano, 26</li>
         <li className="text-white text-l">20122 Milano – Italy</li>
       </ul>
