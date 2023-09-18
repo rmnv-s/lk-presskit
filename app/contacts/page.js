@@ -34,13 +34,13 @@ export default function Contacts() {
 
         <ul className="text-black">
           <li className="mb-5 opacity-100 hover:opacity-70">
-            <Link className="flex  text-l " href="mailto:info@lindakristel.com">
+            <Link className="flex  text-l " href="mailto:info@lindakristel.com" target="_blank">
               <SvgMailLk className="mr-4" />
               General info & sales
             </Link>
           </li>
           <li className="mb-5 opacity-100 hover:opacity-70">
-            <Link className="flex  text-l " href="mailto:pr@lindakristel.com">
+            <Link className="flex  text-l " href="mailto:pr@lindakristel.com" target="_blank">
               <SvgMailLk className="mr-4" />
               PR & Marketing
             </Link>
