@@ -3,6 +3,7 @@ import Wrapper from '@/components/wrapper/wrapper';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
 import SvgLeaf from '@/components/assets/icons/leaf.icon';
+import NextTopLoader from 'nextjs-toploader';
 import localFont from 'next/font/local';
 const helvetica = localFont({
   src: [
@@ -60,6 +61,7 @@ export default function RootLayout({ children }) {
     <html suppressHydrationWarning lang="en">
       <body className={helvetica.className}>
         <Wrapper>
+          <NextTopLoader color="#282828" />
           <Header />
           {children}
           <Footer />
