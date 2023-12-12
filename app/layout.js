@@ -60,6 +60,13 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="en">
       <body className={helvetica.className}>
+	  <YandexMetrika
+		  yid={95854411}
+		  clickmap={true}
+		  trackLinks={true}
+		  accurateTrackBounce={true}
+		  webvisor={true}
+	  />
         <Wrapper>
           <NextTopLoader color="#282828" />
           <Header />
