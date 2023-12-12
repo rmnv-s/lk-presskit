@@ -5,6 +5,7 @@ import Footer from '@/components/footer/footer';
 import SvgLeaf from '@/components/assets/icons/leaf.icon';
 import NextTopLoader from 'nextjs-toploader';
 import localFont from 'next/font/local';
+import { YandexMetrika } from 'components/yandexMetrica/yandexMetrika';
 const helvetica = localFont({
   src: [
     {
